@@ -20,8 +20,8 @@
    		function home(){
           
             $data=$this->model->getRoles();
+            
             $this->addData($data);
-            //rebuilding with new data
             $this->view->__construct($this->dataView,$this->dataTable);
             $this->view->show();
             

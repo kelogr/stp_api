@@ -6,8 +6,8 @@
 	"dbconf":{
 		"driver":"mysql",
 		"dbhost":"localhost",
-		"dbuser":"storypub",
-		"dbpass":"storypub",
+		"dbuser":"root",
+		"dbpass":"linuxlinux",
 		"dbname":"storypub"
 	}
 

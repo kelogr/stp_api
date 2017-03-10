@@ -2,20 +2,19 @@
 	include 'head_common.php';
 	?>
 <body>
-
-	<h1><?= $this->page; ?></h1>
-	<table class="table table-hover">
-		<?php for($i=0;$i<count($this->dataTable);$i++){ ?>
-			<tr>
-			<?php foreach($this->dataTable[$i] as $key=>$value) :?>
-				
-	        		<td><?= $value; ?></td>
-	    	
-	    	<?php endforeach; ?>
-	    	</tr>
-	    <?php } ?>
-	</table>
-	
+        <h1 id="titulo"><?= $this->page; ?></h1>
+        
+        <nav>
+            <ul>
+                <li><a href="registre">Registrarse</a></li>
+                <li><a href="login">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h1>StoryPub</h1>
+        </section>
+        
+        
 <?php 
 	include 'footer_common.php';
 ?>

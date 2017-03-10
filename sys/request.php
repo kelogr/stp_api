@@ -24,9 +24,11 @@
 			// no lo es fem array_shift una altra vegada
 			$dir=dirname($_SERVER['PHP_SELF']);
 			
-			if($dir=='/'.$array_query[0]){
+			if($array_query){
+                        if($dir=='/'.$array_query[0]){
 				array_shift($array_query);
-			}		
+			}
+                        }
 						
 			self::$query=$array_query;
 			

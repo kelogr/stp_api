@@ -133,4 +133,21 @@
             setcookie('page',\X\Sys\Session::get('page'),0,APP_W);
             return $data;
         }
+        
+        /*public function valemail($em){
+			$sql="SELECT COUNT(*) FROM users WHERE email=:email";
+                        var_dump($sql);
+			$this->query($sql);
+                         var_dump($this->query($sql));
+                        $this->bind(":email", $em);
+                         var_dump($this->bind(":email", $em));
+			$res=$this->execute();
+			if($res==1){
+                            return true;							
+			}else 
+                        {
+                            return false;
+                            
+                        }
+		}*/
 }
