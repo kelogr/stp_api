@@ -60,6 +60,7 @@
 	 	 	$jsonStr=file_get_contents($file);
 	 	 	
 	 	 	$arrayJson=json_decode($jsonStr);
+                          
 	 	 	foreach ($arrayJson as $key => $value) {
 	 	 		$this->data[$key]=$value;
 	 	 	}

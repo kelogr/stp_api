@@ -11,6 +11,7 @@
 			$dsn=$dbconf['driver'].':host='.$dbconf['dbhost'].';dbname='.$dbconf['dbname'];
 		 	$usr=$dbconf['dbuser'];
 		 	$pwd=$dbconf['dbpass'];
+                        
 			parent::__construct($dsn,$usr,$pwd);
 		}
 
