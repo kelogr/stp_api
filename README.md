@@ -1,7 +1,7 @@
 # API RESTFUL
 
 	READ --> Dos métodos:
-		1.1-> <a href="http://klopez.cesnuria.com/stp/api/user">READ</a>
+		1.1-> http://klopez.cesnuria.com/stp/api/user
 		      Muestra un listado de todos los usuarios de la base de datos.
 		      RestEasy -> GET - http://klopez.cesnuria.com/stp/api/user
 		1.2-> http://klopez.cesnuria.com/stp/api/user/1
